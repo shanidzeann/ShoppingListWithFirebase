@@ -65,6 +65,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		892E1B2A275568CD008AC606 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				892E1ACE274AFE43008AC606 /* DatabaseManager.swift */,
+				892E1ACC274AF8FE008AC606 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		892E1B2B275568F6008AC606 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				89533259270DA52C00E88157 /* AppDelegate.swift */,
+				8953325B270DA52C00E88157 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		8953324D270DA52C00E88157 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +107,8 @@
 				89B7E3EE270F7EB10009637D /* Model */,
 				89B7E3E8270F7E670009637D /* View */,
 				89B7E3E9270F7E890009637D /* Controller */,
+				892E1B2B275568F6008AC606 /* AppDelegate */,
+				892E1B2A275568CD008AC606 /* Managers */,
 				89B7E3E7270F7E5A0009637D /* Supporting Files */,
 			);
 			path = ShoppingListWithFirebase;
@@ -97,12 +117,7 @@
 		89B7E3E7270F7E5A0009637D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				892E1ACE274AFE43008AC606 /* DatabaseManager.swift */,
-				892E1ACC274AF8FE008AC606 /* AuthManager.swift */,
-				89533259270DA52C00E88157 /* AppDelegate.swift */,
-				8953325B270DA52C00E88157 /* SceneDelegate.swift */,
 				89533262270DA52F00E88157 /* Assets.xcassets */,
-				89533264270DA52F00E88157 /* LaunchScreen.storyboard */,
 				89533267270DA52F00E88157 /* Info.plist */,
 				8953326F270DBB5700E88157 /* GoogleService-Info.plist */,
 			);
@@ -112,6 +127,7 @@
 		89B7E3E8270F7E670009637D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				89533264270DA52F00E88157 /* LaunchScreen.storyboard */,
 				8953325F270DA52C00E88157 /* Main.storyboard */,
 			);
 			path = View;
